@@ -49,137 +49,7 @@
   <project path="cts" name="android_cts" groups="cts,pdk-cw-fs" />
   <project path="dalvik" name="dalvik" remote="vanir" />
   <project path="development" name="android_development" />
-  <project path="device/asus/deb" name="device_asus_deb" remote="vanir" />
-  <project path="device/asus/flo" name="device_asus_flo" remote="vanir" />
-  <project path="device/asus/grouper" name="device_asus_grouper" remote="vanir" />
-  <project path="device/asus/tf700t" name="device_asus_tf700t" remote="vanir" />
-  <project path="device/asus/tilapia" name="device_asus_tilapia" remote="vanir" groups="device" />
   <project path="device/common" name="android_device_common" groups="pdk" />
-  <project path="device/generic/arm64" name="device/generic/arm64" groups="pdk" remote="aosp" />
-  <project path="device/generic/armv7-a-neon" name="android_device_generic_armv7-a-neon" groups="pdk" />
-  <project path="device/generic/common" name="android_device_generic_common" groups="pdk" />
-  <project path="device/generic/goldfish" name="device_generic_goldfish" remote="vanir" groups="pdk" />
-  <project path="device/generic/mips" name="android_device_generic_mips" groups="pdk" />
-  <project path="device/generic/x86" name="device/generic/x86" groups="pdk" remote="aosp" />
-  <project path="device/generic/x86_64" name="device/generic/x86_64" groups="pdk" remote="aosp" />
-  <project path="device/htc/dlx" name="device_htc_dlx" remote="vanir" />
-  <project path="device/htc/evita" name="android_device_htc_evita" />
-  <project path="device/htc/flounder" name="device_htc_flounder" remote="almighty" revision="L5" />
-  <project path="device/htc/jewel" name="android_device_htc_jewel" />
-  <project path="device/htc/m4" name="device_htc_m4" remote="vanir" />
-  <project path="device/htc/m7" name="device_htc_m7" remote="vanir" />
-  <project path="device/htc/m7-common" name="device_htc_m7-common" remote="vanir" />
-  <project path="device/htc/m7spr" name="device_htc_m7spr" remote="vanir" />
-  <project path="device/htc/m7vzw" name="device_htc_m7vzw" remote="vanir" />
-  <project path="device/htc/m8" name="device_htc_m8" remote="vanir" />
-  <project path="device/htc/msm8960-common" name="device_htc_msm8960-common" remote="vanir" />
-  <project path="device/htc/s4-common" name="device_htc_s4-common" remote="vanir" />
-  <project path="device/htc/ville" name="android_device_htc_ville" />
-  <project path="device/lge/d800" name="device_lge_d800" remote="vanir" />
-  <project path="device/lge/d801" name="device_lge_d801" remote="vanir" />
-  <project path="device/lge/d802" name="device_lge_d802" remote="vanir" />
-  <project path="device/lge/d803" name="device_lge_d803" remote="vanir" />
-  <project path="device/lge/d850" name="android_device_lge_d850" />
-  <project path="device/lge/d851" name="android_device_lge_d851" />
-  <project path="device/lge/d855" name="android_device_lge_d855" />
-  <project path="device/lge/e980" name="device_lge_e980" remote="vanir" />
-  <project path="device/lge/g2-common" name="device_lge_g2-common" remote="vanir" />
-  <project path="device/lge/g3-common" name="device_lge_g3-common" remote="vanir" />
-  <project path="device/lge/gproj-common" name="device_lge_gproj-common" remote="vanir" />
-  <project path="device/lge/hammerhead" name="device_lge_hammerhead" remote="vanir" />
-  <project path="device/lge/ls980" name="device_lge_ls980" remote="vanir" />
-  <project path="device/lge/ls990" name="android_device_lge_ls990" />
-  <project path="device/lge/mako" name="device_lge_mako" remote="vanir" />
-  <project path="device/lge/p880" name="device_lge_p880" remote="vanir" />
-  <project path="device/lge/v500" name="android_device_lge_v500" />
-  <project path="device/lge/vs980" name="device_lge_vs980" remote="vanir" />
-  <project path="device/lge/vs985" name="device_lge_vs985" remote="vanir" />
-  <project path="device/moto/shamu" name="device_moto_shamu" remote="vanir" />
-  <project path="device/motorola/falcon" name="device_motorola_falcon" remote="vanir" />
-  <project path="device/motorola/maserati" name="android_device_motorola_maserati" />
-  <project path="device/motorola/moto_msm8960" name="device_motorola_moto_msm8960" remote="vanir" />
-  <project path="device/motorola/moto_msm8960_jbbl" name="device_motorola_moto_msm8960_jbbl" remote="vanir" device="msm8960_jbbl" />
-  <project path="device/motorola/msm8226-common" name="motorola_msm8226-common" remote="vanir" />
-  <project path="device/motorola/omap4-common" name="device_motorola_omap4-common" remote="vanir" />
-  <project path="device/motorola/qcom-common" name="device_motorola_qcom-common" remote="vanir" />
-  <project path="device/motorola/victara" name="android_device_motorola_victara" />
-  <project path="device/oneplus/bacon" name="device_oneplus_bacon" device="BACON" remote="vanir" />
-  <project path="device/oppo/apq8064-common" name="android_device_oppo_apq8064-common" device="oppo_n1" />
-  <project path="device/oppo/common" name="device_oppo_common" device="oppo_n1" remote="vanir" />
-  <project path="device/oppo/find5" name="android_device_oppo_find5" device="find5" />
-  <project path="device/oppo/find7" name="android_device_oppo_find7" device="find7" />
-  <project path="device/oppo/find7-common" name="android_device_oppo_find7-common" device="find7" />
-  <project path="device/oppo/find7s" name="android_device_oppo_find7s" device="find7" />
-  <project path="device/oppo/msm8974-common" name="android_device_oppo_msm8974-common" device="BACON" />
-  <project path="device/oppo/n1" name="android_device_oppo_n1" device="oppo_n1" />
-  <project path="device/qcom/common" name="device_qcom_common" remote="vanir" />
-  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" />
-  <project path="device/sample" name="device/sample" groups="pdk" remote="aosp" />
-  <project path="device/samsung/d2-common" name="android_device_samsung_d2-common" groups="GS3_device"  />
-  <project path="device/samsung/d2att" name="android_device_samsung_d2att" groups="GS3_device" />
-  <project path="device/samsung/d2spr" name="android_device_samsung_d2spr" groups="GS3_device" />
-  <project path="device/samsung/d2vzw" name="android_device_samsung_d2vzw" groups="GS3_device" />
-  <project path="device/samsung/hlte" name="android_device_samsung_hlte" groups="hlte_device" />
-  <project path="device/samsung/hlte-common" name="android_device_samsung_hlte-common" groups="hlte_device" />
-  <project path="device/samsung/hltespr" name="android_device_samsung_hltespr" groups="hlte_device" />
-  <project path="device/samsung/hltetmo" name="android_device_samsung_hltetmo" groups="hlte_device" />
-  <project path="device/samsung/i605" name="android_device_samsung_i605" groups="device" />
-  <project path="device/samsung/i9300" name="device_samsung_i9300" remote="vanir" groups="GS3_device" />
-  <project path="device/samsung/i9305" name="device_samsung_i9305" remote="vanir" groups="GS3_device" />
-  <project path="device/samsung/janice" name="device_samsung_janice" remote="vanir" groups="ste" />
-  <project path="device/samsung/jf-common" name="device_samsung_jf-common" remote="vanir" />
-  <project path="device/samsung/jflteatt" name="android_device_samsung_jflteatt" />
-  <project path="device/samsung/jfltespr" name="android_device_samsung_jfltespr" />
-  <project path="device/samsung/jfltetmo" name="android_device_samsung_jfltetmo" />
-  <project path="device/samsung/jflteusc" name="android_device_samsung_jflteusc" />
-  <project path="device/samsung/jfltevzw" name="android_device_samsung_jfltevzw" />
-  <project path="device/samsung/jfltexx" name="android_device_samsung_jfltexx" />
-  <project path="device/samsung/klte" name="android_device_samsung_klte" />
-  <project path="device/samsung/klte-common" name="device_samsung_klte-common" remote="vanir" />
-  <project path="device/samsung/kltedv" name="android_device_samsung_kltedv" />
-  <project path="device/samsung/kltespr" name="android_device_samsung_kltespr" />
-  <project path="device/samsung/klteusc" name="android_device_samsung_klteusc" />
-  <project path="device/samsung/kltevzw" name="device_samsung_kltevzw" remote="vanir" />
-  <project path="device/samsung/kona-common" name="device_samsung_kona-common" remote="vanir" />
-  <project path="device/samsung/maguro" name="Ziyann/android_device_samsung_maguro" remote="github" groups="tuna" />
-  <project path="device/samsung/manta" name="device_samsung_manta" remote="vanir" groups="device" />
-  <project path="device/samsung/mondrianwifi" name="device_samsung_mondrianwifi" remote="vanir" groups="mondrianwifi" />
-  <project path="device/samsung/msm8660-common" name="device_samsung_msm8660-common" remote="vanir" />
-  <project path="device/samsung/msm8960-common" name="device_samsung_msm8960-common" remote="vanir" groups="device" />
-  <project path="device/samsung/msm8974-common" name="device_samsung_msm8974-common" remote="vanir" groups="device" />
-  <project path="device/samsung/n5100" name="android_device_samsung_n5100" />
-  <project path="device/samsung/n5110" name="android_device_samsung_n5110" />
-  <project path="device/samsung/n5120" name="ryukiri/android_device_samsung_n5120" remote="github" revision="kk44" />
-  <project path="device/samsung/qcom-common" name="device_samsung_qcom-common" remote="vanir" groups="device" />
-  <project path="device/samsung/smdk4412-common" name="device_samsung_smdk4412-common" groups="device" remote="vanir" />
-  <project path="device/samsung/smdk4412-qcom-common" name="device_samsung_smdk4412-qcom-common" remote="vanir" groups="device" />
-  <project path="device/samsung/t0lte" name="device_samsung_t0lte" remote="vanir" groups="device" />
-  <project path="device/samsung/toro" name="device_samsung_toro" remote="vanir" groups="tuna" />
-  <project path="device/samsung/toroplus" name="device_samsung_toroplus" remote="vanir" groups="tuna" />
-  <project path="device/samsung/trlte-common" name="android_device_samsung_trlte-common" />
-  <project path="device/samsung/trltespr" name="android_device_samsung_trltespr" />
-  <project path="device/samsung/trltetmo" name="android_device_samsung_trltetmo" />
-  <project path="device/samsung/tuna" name="Ziyann/android_device_samsung_tuna" remote="github" groups="tuna" />
-  <project path="device/samsung/u8500-common" name="Team-Exhibit/android_device_samsung_u8500-common" remote="github" revision="kk44" groups="ste" />
-  <project path="device/sony/amami" name="android_device_sony_amami" />
-  <project path="device/sony/blue-common" name="android_device_sony_blue-common" />
-  <project path="device/sony/common" name="android_device_sony_common" />
-  <project path="device/sony/fusion3-common" name="device_sony_fusion3-common" remote="vanir" groups="device" />
-  <project path="device/sony/honami" name="android_device_sony_honami" />
-  <project path="device/sony/huashan" name="android_device_sony_huashan" />
-  <project path="device/sony/msm8960-common" name="android_device_sony_msm8960-common" />
-  <project path="device/sony/msm8974-common" name="android_device_sony_msm8974-common" />
-  <project path="device/sony/nicki" name="device_sony_nicki" remote="vanir" />
-  <project path="device/sony/pollux" name="device_sony_pollux" remote="vanir" />
-  <project path="device/sony/pollux-common" name="android_device_sony_pollux-common" groups="device" />
-  <project path="device/sony/pollux_windy" name="android_device_sony_pollux_windy" />
-  <project path="device/sony/qcom-common" name="device_sony_qcom-common" remote="vanir" />
-  <project path="device/sony/rhine-common" name="android_device_sony_rhine-common" />
-  <project path="device/sony/shinano-common" name="android_device_sony_shinano-common" device="shinano" />
-  <project path="device/sony/sirius" name="android_device_sony_sirius" device="shinano" />
-  <project path="device/sony/taoshan" name="android_device_sony_taoshan" />
-  <project path="device/sony/tsubasa" name="android_device_sony_tsubasa" />
-  <project path="device/sony/yuga" name="device_sony_yuga" remote="vanir" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" remote="aosp" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" remote="aosp" />
   <project path="external/android-clat" name="platform/external/android-clat" groups="pdk-cw-fs" remote="aosp" />
@@ -501,45 +371,6 @@
   <project path="hardware/invensense" name="hardware_invensense" remote="vanir" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="vanir" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="hardware_libhardware-legacy" remote="vanir" groups="pdk" />
-  <project path="hardware/nvidia/audio" name="android_hardware_nvidia_audio" groups="nvidia_audio" />
-  <project path="hardware/nvidia/tegra124" name="android_hardware_nvidia_tegra124" groups="tegra124" />
-  <project path="hardware/qcom/audio-caf/apq8084" name="hardware_qcom_audio" groups="qcom,qcom_audio" remote="vanir" revision="L5-caf-8084" />
-  <project path="hardware/qcom/audio-caf/msm8226" name="hardware_qcom_audio" groups="qcom,qcom_audio" remote="vanir" revision="L5-caf-8226" />
-  <project path="hardware/qcom/audio-caf/msm8916" name="hardware_qcom_audio" groups="qcom,qcom_audio" remote="vanir" revision="L5-caf-8916" />
-  <project path="hardware/qcom/audio-caf/msm8960" name="hardware_qcom_audio" groups="qcom,qcom_audio" remote="vanir" revision="L5-caf-8960" />
-  <project path="hardware/qcom/audio-caf/msm8974" name="hardware_qcom_audio" groups="qcom,qcom_audio" remote="vanir" revision="L5-caf-8974" />
-  <project path="hardware/qcom/audio/default" name="hardware_qcom_audio" groups="qcom,qcom_audio" remote="vanir" />
-  <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" groups="qcom" />
-  <project path="hardware/qcom/display" name="hardware_qcom_display" groups="qcom,qcom_display" remote="vanir" />
-  <project path="hardware/qcom/display-caf/apq8084" name="hardware_qcom_display" groups="qcom,qcom_display" remote="vanir" revision="L5-caf-8084" />
-  <project path="hardware/qcom/display-caf/msm8226" name="hardware_qcom_display" groups="qcom,qcom_display" remote="vanir" revision="L5-caf-8226" />
-  <project path="hardware/qcom/display-caf/msm8916" name="hardware_qcom_display" groups="qcom,qcom_display" remote="vanir" revision="L5-caf-8916" />
-  <project path="hardware/qcom/display-caf/msm8960" name="hardware_qcom_display" groups="qcom,qcom_display" remote="vanir" revision="L5-caf-8960" />
-  <project path="hardware/qcom/display-caf/msm8974" name="hardware_qcom_display" groups="qcom,qcom_display" remote="vanir" revision="L5-caf-8974" />
-  <project path="hardware/qcom/gps" name="hardware_qcom_gps" groups="qcom" remote="vanir" />
-  <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" groups="qcom" />
-  <project path="hardware/qcom/media-caf/apq8084" name="hardware_qcom_media" groups="qcom" remote="vanir" revision="L5-caf-8084" />
-  <project path="hardware/qcom/media-caf/msm8226" name="hardware_qcom_media" groups="qcom" remote="vanir" revision="L5-caf-8226" />
-  <project path="hardware/qcom/media-caf/msm8916" name="hardware_qcom_media" groups="qcom" remote="vanir" revision="L5-caf-8916" />
-  <project path="hardware/qcom/media-caf/msm8960" name="hardware_qcom_media" groups="qcom" remote="vanir" revision="L5-caf-8960" />
-  <project path="hardware/qcom/media-caf/msm8974" name="hardware_qcom_media" groups="qcom" remote="vanir" revision="L5-caf-8974" />
-  <project path="hardware/qcom/media/default" name="hardware_qcom_media" groups="qcom" remote="vanir" />
-  <project path="hardware/qcom/msm8x26" name="platform/hardware/qcom/msm8x26" groups="qcom_msm8x26" remote="aosp" />
-  <project path="hardware/qcom/msm8x27" name="platform/hardware/qcom/msm8x27" groups="qcom_msm8x27" remote="aosp" />
-  <project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" groups="qcom_msm8x74" remote="aosp" />
-  <project path="hardware/qcom/msm8x84" name="platform/hardware/qcom/msm8x84" groups="qcom_msm8x84" remote="aosp" />
-  <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" remote="aosp" />
-  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" />
-  <project path="hardware/ril" name="hardware_ril" remote="vanir" groups="pdk" />
-  <project path="hardware/ril-caf" name="android_hardware_ril" groups="pdk" revision="cm-12.0-caf" />
-  <project path="hardware/samsung" name="hardware_samsung" remote="vanir" />
-  <project path="hardware/samsung_slsi/exynos5" name="hardware_samsung_slsi_exynos5" remote="vanir" />
-  <project path="hardware/sony/thermanager" name="android_hardware_sony_thermanager" />
-  <project path="hardware/sony/DASH" name="android_hardware_sony_DASH" />
-  <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3" remote="aosp" />
-  <project path="hardware/ti/omap4" name="android_hardware_ti_omap4" />
-  <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" remote="aosp" />
-  <project path="hardware/ti/omap4xxx" name="hardware_ti_omap4xxx" remote="vanir" />
   <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" />
   <project path="hardware/ti/wpan" name="android_hardware_ti_wpan" />
   <project path="libcore" name="libcore" remote="vanir" />
@@ -578,7 +409,6 @@
   <project path="packages/apps/SmartCardService" name="android_packages_apps_SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="packages_apps_soundrecorder" remote="vanir" />
   <project path="packages/apps/SpeechRecorder" name="android_packages_apps_SpeechRecorder" />
-<!--  <project path="packages/apps/SpeakerProximity" name="packages_apps_SpeakerProximity" remote="vanir" /> -->
   <project path="packages/apps/Stk" name="android_packages_apps_Stk" />
   <project path="packages/apps/Tag" name="android_packages_apps_Tag" />
   <project path="packages/apps/Terminal" name="android_packages_apps_Terminal" />
@@ -633,26 +463,10 @@
   <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" groups="pdk" remote="aosp" />
   <project path="prebuilts/eclipse-build-deps" name="platform/prebuilts/eclipse-build-deps" groups="notdefault,eclipse" remote="aosp" />
   <project path="prebuilts/eclipse-build-deps-sources" name="platform/prebuilts/eclipse-build-deps-sources" groups="notdefault,eclipse" remote="aosp" />
-  <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.8" name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.8" groups="pdk,darwin,arm" remote="aosp" />
-  <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" groups="pdk,darwin,arm" remote="aosp" />
-  <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" groups="pdk,darwin,arm" remote="aosp" />
-  <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.8" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.8" groups="pdk,darwin,arm" remote="aosp" />
-  <project path="prebuilts/gcc/darwin-x86/host/headers" name="platform/prebuilts/gcc/darwin-x86/host/headers" groups="pdk,darwin" remote="aosp" />
-  <project path="prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" groups="pdk,darwin" remote="aosp" />
-  <project path="prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.8" name="platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.8" groups="pdk,darwin,mips" remote="aosp" />
-  <project path="prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9" name="platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9" groups="pdk,darwin,mips" remote="aosp" />
-  <project path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.8" name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.8" groups="pdk,darwin,mips" remote="aosp" />
-  <project path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.8" name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.8" groups="pdk,darwin,x86" remote="aosp" />
-  <project path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" revision="master" groups="pdk,darwin,x86" remote="aosp" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8" groups="pdk,linux,arm" remote="aosp" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" groups="pdk,linux,arm" remote="aosp" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="prebuilts_gcc_linux-x86_arm_arm-eabi-4.8" remote="vanir" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.8" remote="vanir" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-linaro" name="prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.8-linaro" remote="vanir" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-linaro" name="prebuilts_gcc-linux-x86_arm_arm-linux-androideabi-4.9-linaro" remote="vanir" />
-  <project path="prebuilts/gcc/linux-x86/arm/linaro" name="linaro_toolchains_2015" remote="vanir" />
-  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6" groups="pdk,linux" remote="aosp" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" groups="pdk,linux" remote="aosp" />
+  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" groups="pdk,linux" remote="aosp" revision="master"/>
   <project path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" remote="aosp" />
   <project path="prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.8" name="platform/prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.8" groups="pdk,linux,mips" remote="aosp" />
   <project path="prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.9" groups="pdk,linux,mips" remote="aosp" />
@@ -684,24 +498,17 @@
   <project path="tools/loganalysis" name="platform/tools/loganalysis" groups="notdefault,tradefed" remote="aosp" />
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools"  remote="aosp" />
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" remote="aosp" />
-  <project path="vendor/asus" name="vendor_asus" remote="vanir" groups="vendor" />
-  <project path="vendor/commotio" name="commotio" remote="commotio" revision="5" groups="vendor" />
   <project path="vendor/cyngn" name="cyngn/android_vendor_cyngn" remote="github" />
-  <project path="vendor/extra" name="vendor_qcom_opt" remote="vanir" />
-  <project path="vendor/htc" name="vendor_htc" remote="vanir" />
-  <project path="vendor/lge" name="vendor_lge" remote="vanir" />
-  <project path="vendor/motorola" name="vendor_motorola" remote="vanir" groups="vendor"/>
-  <project path="vendor/oneplus" name="TheMuppets/proprietary_vendor_oneplus" remote="github" revision="cm-12.0" />
-  <project path="vendor/oppo" name="TheMuppets/proprietary_vendor_oppo" remote="github" revision="cm-12.0" />
-  <project path="vendor/samsung" name="vendor_samsung" remote="vanir" groups="vendor" />
-  <project path="vendor/sony" name="vendor_sony" remote="vanir" groups="vendor" />
   <project path="vendor/vanir" name="vendor_vanir" remote="vanir" groups="vendor" />
 
 <!-- Additional vendors -->
-  <project path="vendor/audience" name="TheMuppets/proprietary_vendor_audience" remote="github" revision="cm-12.0" />
-  <project path="vendor/broadcom" name="TheMuppets/proprietary_vendor_broadcom" remote="github" revision="cm-12.0" />
-  <project path="vendor/invensense" name="TheMuppets/proprietary_vendor_invensense" remote="github" revision="cm-12.0" />
-  <project path="vendor/nvidia" name="TheMuppets/proprietary_vendor_nvidia" remote="github" revision="cm-12.0" />
-  <project path="vendor/nxp" name="TheMuppets/proprietary_vendor_nxp" remote="github" revision="cm-12.0" />
-  <project path="vendor/widevine" name="TheMuppets/proprietary_vendor_widevine" remote="github" revision="cm-12.0" />
-</manifest>
+  <project name="KFire-Android/android_device_amazon_omap4-common" path="device/amazon/omap4-common" remote="github" revision="cm-12.0" />
+  <project name="KFire-Android/android_device_amazon_bowser-common" path="device/amazon/bowser-common" remote="github" revision="cm-12.0" />
+  <project name="KFire-Android/android_device_amazon_tate" path="device/amazon/tate" remote="github" revision="cm-12.0" />
+  <project name="KFire-Android/proprietary_vendor_amazon" path="vendor/amazon" remote="github" revision="cm-12.0" />
+  <project name="faZevoLv/android_kernel_amazon_bowser-common" path="kernel/amazon/bowser-common" remote="github" revision="cm-12.0" />
+  <project name="CyanogenMod/android_hardware_ti_omap4" path="hardware/ti/omap4" remote="github" revision="cm-12.0" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8-sm" name="SaberMod/arm-eabi-4.8" remote="gh" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-sm" name="SaberMod/arm-eabi-4.9" remote="gh" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="SaberMod/arm-androideabi-4.8" remote="gh" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="Team-Validus/arm-linux-androideabi-4.9" remote="gh" revision="lp" />
