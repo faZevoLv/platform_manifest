@@ -512,3 +512,4 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-sm" name="SaberMod/arm-eabi-4.9" remote="gh" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="SaberMod/arm-androideabi-4.8" remote="gh" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="Team-Validus/arm-linux-androideabi-4.9" remote="gh" revision="lp" />
+</manifest>
