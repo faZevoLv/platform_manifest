@@ -502,14 +502,8 @@
   <project path="vendor/vanir" name="vendor_vanir" remote="vanir" groups="vendor" />
 
 <!-- Additional vendors -->
-  <project name="KFire-Android/android_device_amazon_omap4-common" path="device/amazon/omap4-common" remote="github" revision="cm-12.0" />
-  <project name="KFire-Android/android_device_amazon_bowser-common" path="device/amazon/bowser-common" remote="github" revision="cm-12.0" />
-  <project name="KFire-Android/android_device_amazon_tate" path="device/amazon/tate" remote="github" revision="cm-12.0" />
-  <project name="KFire-Android/proprietary_vendor_amazon" path="vendor/amazon" remote="github" revision="cm-12.0" />
-  <project name="faZevoLv/android_kernel_amazon_bowser-common" path="kernel/amazon/bowser-common" remote="github" revision="cm-12.0" />
-  <project name="CyanogenMod/android_hardware_ti_omap4" path="hardware/ti/omap4" remote="github" revision="cm-12.0" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8-sm" name="SaberMod/arm-eabi-4.8" remote="github" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-sm" name="SaberMod/arm-eabi-4.9" remote="github" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="SaberMod/arm-eabi-4.8" remote="github" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="SaberMod/arm-eabi-4.9" remote="github" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="SaberMod/arm-androideabi-4.8" remote="github" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="Team-Validus/arm-linux-androideabi-4.9" remote="github" revision="lp" />
 </manifest>
