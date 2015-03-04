@@ -11,6 +11,10 @@ case $1 in
         export remoterevision="L5"
         export kernelsource="AlmightyMegadeth00/kernel_oneplus_msm8974"
     ;;
+    condor)
+        export remote="github"
+        export kernelsource="percy-g2/android_kernel_motorola_msm8610"
+    ;;
     d80*|ls980|vs980)
         export remote="vanir"
         export remoterevision="L5"
@@ -48,16 +52,6 @@ case $1 in
         export remote="github"
         export remoterevision="L5"
         export kernelsource="AlmightyMegadeth00/kernel_google_msm"
-    ;;
-    flounder)
-        export remote="github"
-        export remoterevision="L5"
-        export kernelsource="AlmightyMegadeth00/kernel_tegra"
-    ;;
-    janice)
-        export remote="github"
-        export remoterevision="kk44"
-        export kernelsource="Team-Exhibit/android_kernel_samsung_u8500"
     ;;
     jf*)
         export remote="vanir"
