@@ -30,7 +30,7 @@
           remote="cm" />
 
   <project path="manifest" name="platform_manifest" remote="vanir" /> <!-- DO NOT MOVE - whine to Nuclearmistake -->
-  <project path="build" name="build" remote="vanir" groups="pdk">
+  <project path="build" name="faZevoLv/build" remote="github" groups="pdk">
     <copyfile src="core/root.mk" dest="Makefile" />
     <copyfile src="tools/BUILD_COMMAND_README" dest="BUILD_COMMAND_README" />
   </project>
